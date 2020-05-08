@@ -1,0 +1,14 @@
+{% extends "mainApp/wrapper.html" %}
+
+{% block content %}
+<div class="jumbotron">
+    <div class="container">
+        <h1 class="display-3">Connecting page</h1>
+        <a href="/userinterface" class="btn btn-success btn-lg mt-5">Вернуться в профиль</a>
+        <p></p>
+        <p class="btn btn-lg">• {{res}}</p>
+    </div>
+</div>
+
+{% include "mainApp/includes/some_html.html" %}
+{% endblock %}
